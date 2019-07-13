@@ -1,0 +1,15 @@
+sub foo
+  set a 2
+  call bar
+  set c 3
+
+
+sub main
+    set a 1
+    call foo
+    print a
+    print c
+
+sub bar
+  set b 3
+  print b
